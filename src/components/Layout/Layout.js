@@ -1,9 +1,9 @@
 import React from 'react';
 import Sidebar from '../Sidebar';
-import UserHeader from '../UserHeader';
+import Header from '../Header';
 import MobileNav from '../MobileNav';
 
-import { StyledContent } from './styles';
+import { StyledContent } from './style';
 
 const Layout = ({ user, children }) => {
   return (
@@ -11,7 +11,7 @@ const Layout = ({ user, children }) => {
       <MobileNav />
       <Sidebar />
       <StyledContent>
-        <UserHeader user={user} />
+        <Header user={user} />
         <div>{children}</div>
       </StyledContent>
     </>
