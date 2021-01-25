@@ -13,11 +13,17 @@ const Projects = ({ user }) => {
             <ProjectItem key={i}>
               <ProjectTitle>{project.name}</ProjectTitle>
               <p>{project.summary}</p>
+              <p>{project.description}</p>
               <SkillContainer>
                 {[...project.languages, ...project.libraries].map((item, j) => (
                   <Pill key={j}>{item}</Pill>
                 ))}
               </SkillContainer>
+              <ul>
+                <li stlye={{fontFamily: "sans-sarif", fontSize: "medium"}}><a href={project.githubUrl} target="_black" rel="noreferrer">Github Repository</a></li>
+                <br></br>
+                <li stlye={{fontFamily: "sans-sarif", fontSize: "medium"}}><a href={project.website} target="_black" rel="noreferrer">Deployed App</a></li>
+              </ul>
             </ProjectItem>
           ))}
         </ul>

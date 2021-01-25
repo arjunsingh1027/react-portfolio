@@ -9,7 +9,7 @@ const UserHeader = ({ user }) => {
 
     return (
         <HeaderContainer isHome={location.pathname === '/'}>
-            <Header>
+            <Header style={{fontFamily: "sans-serif"}}>
                 <Image src={user.basics.picture} />
                 <div>
                     <h2>{user.basics.name}</h2>
