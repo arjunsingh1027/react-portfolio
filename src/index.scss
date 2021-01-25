@@ -8,6 +8,12 @@ a {
   color: $text-04;
 }
 
+main.bx--content {
+  background: url('./assets/background.png');
+  background-size: auto;
+  background-position: center;
+}
+
 .bx--side-nav__navigation {
   background-color: $ui-background;
 }

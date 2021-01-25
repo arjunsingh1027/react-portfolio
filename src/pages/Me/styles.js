@@ -9,7 +9,7 @@ export const ProfileLink = styled.li`
 
 export const SectionTitle = styled.h3`
   font-weight: bold;
-  color: rgba(254, 114, 27, 1);
+  color: rgba(15, 232, 240, 1);
   margin-top: 2.0rem
 `;
 

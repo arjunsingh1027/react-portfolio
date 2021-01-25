@@ -9,7 +9,7 @@ export const ProjectItem = styled.li`
 
 export const ProjectTitle = styled.h4`
   font-weight: bold;
-  color: rgba(254, 114, 27, 1);
+  color: rgba(15, 232, 240, 1);
 `
 
 export const SkillContainer = styled.div`
