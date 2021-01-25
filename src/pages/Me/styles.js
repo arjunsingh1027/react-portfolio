@@ -15,7 +15,6 @@ export const SectionTitle = styled.h3`
 
 export const Paragraph = styled.p`
   display: inline-block;
-  background-color: rgba(254, 133, 57, 0.58);
   border-radius: 5px;
   padding-left: 5px;
 `;
